@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000000</color>
+    <color name="bacolor">#e2ce1b</color>
+    <color name="bacolor_light">#eddf62</color>
+    <color name="black">#232322</color>
+    <color name="blackTraslucid">#91000000</color>
+</resources>

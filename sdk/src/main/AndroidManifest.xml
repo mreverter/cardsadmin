@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mercadopago">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <application android:allowBackup="true">
+        <activity
+            android:name=".CustomerCardsActivity"
+            android:label="@string/mpsdk_title_activity_customer_pms"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MercadoPagoTheme.NoActionBar" />
+        <activity
+            android:name=".NewCardActivity"
+            android:label="@string/mpsdk_title_activity_new_card"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MercadoPagoTheme" />
+        <activity
+            android:name=".PaymentMethodsActivity"
+            android:label="@string/mpsdk_title_activity_payment_methods"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MercadoPagoTheme.NoActionBar" />
+        <activity
+            android:name=".BankDealsActivity"
+            android:label="@string/mpsdk_title_activity_bank_deals"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.MercadoPagoTheme.NoActionBar" />
+        <activity
+            android:name=".TermsAndConditionsActivity"
+            android:label="@string/mpsdk_title_activity_terms_and_conditions"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.ProcessMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ProcessMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".GuessingCardActivity"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.ProcessMercadoPagoTheme.NoActionbar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PaymentVaultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ProcessMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".InstructionsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.InfoMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".InstallmentsActivity"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.ProcessMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".IssuersActivity"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.ProcessMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".CardVaultActivity"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.ProcessMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".ErrorActivity"
+            android:screenOrientation="behind"
+            android:theme="@style/Theme.MercadoPagoTheme.NoActionBar" />
+        <activity
+            android:name=".CongratsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CongratsMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".CallForAuthorizeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CallForAuthorizeMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".RejectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.RejectionMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".PendingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.InfoMercadoPagoTheme.NoActionbar" />
+        <activity
+            android:name=".PaymentResultActivity"
+            android:theme="@style/Theme.MercadoPagoTheme.NoActionBar"/>
+        <activity android:name=".VaultActivity"
+            android:theme="@style/Theme.MercadoPagoTheme" />
+    </application>
+
+</manifest>
